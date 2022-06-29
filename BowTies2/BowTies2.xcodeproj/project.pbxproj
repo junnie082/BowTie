@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF5E96C6286C9DF3002699B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E96C5286C9DF3002699B9 /* SceneDelegate.swift */; };
+		BFDAB7FB286C61CF00F6C348 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDAB7FA286C61CF00F6C348 /* AppDelegate.swift */; };
+		BFDAB7FF286C61CF00F6C348 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDAB7FE286C61CF00F6C348 /* ViewController.swift */; };
+		BFDAB802286C61CF00F6C348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDAB800286C61CF00F6C348 /* Main.storyboard */; };
+		BFDAB805286C61CF00F6C348 /* BowTies2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFDAB803286C61CF00F6C348 /* BowTies2.xcdatamodeld */; };
+		BFDAB807286C61D000F6C348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFDAB806286C61D000F6C348 /* Assets.xcassets */; };
+		BFDAB80A286C61D000F6C348 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDAB808286C61D000F6C348 /* LaunchScreen.storyboard */; };
+		BFDAB812286C66C200F6C348 /* SampleData.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFDAB811286C66C200F6C348 /* SampleData.plist */; };
+		BFDAB814286C685600F6C348 /* ColorAttributeTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDAB813286C685600F6C348 /* ColorAttributeTransformer.swift */; };
+		BFDAB817286C6AC500F6C348 /* BowTie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDAB815286C6AC500F6C348 /* BowTie+CoreDataClass.swift */; };
+		BFDAB818286C6AC500F6C348 /* BowTie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDAB816286C6AC500F6C348 /* BowTie+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF5E96C5286C9DF3002699B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BFDAB7F7286C61CF00F6C348 /* BowTies2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BowTies2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFDAB7FA286C61CF00F6C348 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFDAB7FE286C61CF00F6C348 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFDAB801286C61CF00F6C348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFDAB804286C61CF00F6C348 /* BowTies2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BowTies2.xcdatamodel; sourceTree = "<group>"; };
+		BFDAB806286C61D000F6C348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFDAB809286C61D000F6C348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFDAB80B286C61D000F6C348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFDAB811286C66C200F6C348 /* SampleData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SampleData.plist; sourceTree = "<group>"; };
+		BFDAB813286C685600F6C348 /* ColorAttributeTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorAttributeTransformer.swift; sourceTree = "<group>"; };
+		BFDAB815286C6AC500F6C348 /* BowTie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BowTie+CoreDataClass.swift"; path = "../BowTie+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BFDAB816286C6AC500F6C348 /* BowTie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BowTie+CoreDataProperties.swift"; path = "../BowTie+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFDAB7F4286C61CF00F6C348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFDAB7EE286C61CF00F6C348 = {
+			isa = PBXGroup;
+			children = (
+				BFDAB7F9286C61CF00F6C348 /* BowTies2 */,
+				BFDAB7F8286C61CF00F6C348 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFDAB7F8286C61CF00F6C348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFDAB7F7286C61CF00F6C348 /* BowTies2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFDAB7F9286C61CF00F6C348 /* BowTies2 */ = {
+			isa = PBXGroup;
+			children = (
+				BFDAB815286C6AC500F6C348 /* BowTie+CoreDataClass.swift */,
+				BFDAB816286C6AC500F6C348 /* BowTie+CoreDataProperties.swift */,
+				BF5E96C5286C9DF3002699B9 /* SceneDelegate.swift */,
+				BFDAB7FA286C61CF00F6C348 /* AppDelegate.swift */,
+				BFDAB7FE286C61CF00F6C348 /* ViewController.swift */,
+				BFDAB813286C685600F6C348 /* ColorAttributeTransformer.swift */,
+				BFDAB800286C61CF00F6C348 /* Main.storyboard */,
+				BFDAB806286C61D000F6C348 /* Assets.xcassets */,
+				BFDAB808286C61D000F6C348 /* LaunchScreen.storyboard */,
+				BFDAB811286C66C200F6C348 /* SampleData.plist */,
+				BFDAB80B286C61D000F6C348 /* Info.plist */,
+				BFDAB803286C61CF00F6C348 /* BowTies2.xcdatamodeld */,
+			);
+			path = BowTies2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFDAB7F6286C61CF00F6C348 /* BowTies2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFDAB80E286C61D000F6C348 /* Build configuration list for PBXNativeTarget "BowTies2" */;
+			buildPhases = (
+				BFDAB7F3286C61CF00F6C348 /* Sources */,
+				BFDAB7F4286C61CF00F6C348 /* Frameworks */,
+				BFDAB7F5286C61CF00F6C348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BowTies2;
+			productName = BowTies2;
+			productReference = BFDAB7F7286C61CF00F6C348 /* BowTies2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDAB7EF286C61CF00F6C348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BFDAB7F6286C61CF00F6C348 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = BFDAB7F2286C61CF00F6C348 /* Build configuration list for PBXProject "BowTies2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFDAB7EE286C61CF00F6C348;
+			productRefGroup = BFDAB7F8286C61CF00F6C348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFDAB7F6286C61CF00F6C348 /* BowTies2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFDAB7F5286C61CF00F6C348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDAB80A286C61D000F6C348 /* LaunchScreen.storyboard in Resources */,
+				BFDAB807286C61D000F6C348 /* Assets.xcassets in Resources */,
+				BFDAB812286C66C200F6C348 /* SampleData.plist in Resources */,
+				BFDAB802286C61CF00F6C348 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFDAB7F3286C61CF00F6C348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDAB805286C61CF00F6C348 /* BowTies2.xcdatamodeld in Sources */,
+				BF5E96C6286C9DF3002699B9 /* SceneDelegate.swift in Sources */,
+				BFDAB817286C6AC500F6C348 /* BowTie+CoreDataClass.swift in Sources */,
+				BFDAB7FF286C61CF00F6C348 /* ViewController.swift in Sources */,
+				BFDAB7FB286C61CF00F6C348 /* AppDelegate.swift in Sources */,
+				BFDAB818286C6AC500F6C348 /* BowTie+CoreDataProperties.swift in Sources */,
+				BFDAB814286C685600F6C348 /* ColorAttributeTransformer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFDAB800286C61CF00F6C348 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFDAB801286C61CF00F6C348 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFDAB808286C61D000F6C348 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFDAB809286C61D000F6C348 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFDAB80C286C61D000F6C348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFDAB80D286C61D000F6C348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFDAB80F286C61D000F6C348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4B8F7KQ786;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BowTies2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jun.com.BowTies2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFDAB810286C61D000F6C348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4B8F7KQ786;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BowTies2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jun.com.BowTies2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFDAB7F2286C61CF00F6C348 /* Build configuration list for PBXProject "BowTies2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFDAB80C286C61D000F6C348 /* Debug */,
+				BFDAB80D286C61D000F6C348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFDAB80E286C61D000F6C348 /* Build configuration list for PBXNativeTarget "BowTies2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFDAB80F286C61D000F6C348 /* Debug */,
+				BFDAB810286C61D000F6C348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BFDAB803286C61CF00F6C348 /* BowTies2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BFDAB804286C61CF00F6C348 /* BowTies2.xcdatamodel */,
+			);
+			currentVersion = BFDAB804286C61CF00F6C348 /* BowTies2.xcdatamodel */;
+			path = BowTies2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BFDAB7EF286C61CF00F6C348 /* Project object */;
+}
